@@ -1,1 +1,30 @@
 //
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .page-title {
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    table {
+        border: 1px solid black;
+
+        thead {
+            background-color: black;
+            color: white;
+            text-transform: uppercase;
+            
+            th {
+                padding: 8px;
+            }
+        }
+
+        tbody {
+            td {
+                padding: 8px;
+            }
+        }
+    }
+}

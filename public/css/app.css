@@ -1,0 +1,28 @@
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container .page-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.container table {
+  border: 1px solid black;
+}
+
+.container table thead {
+  background-color: black;
+  color: white;
+  text-transform: uppercase;
+}
+
+.container table thead th {
+  padding: 8px;
+}
+
+.container table tbody td {
+  padding: 8px;
+}
+
